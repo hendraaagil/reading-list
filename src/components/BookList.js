@@ -14,7 +14,12 @@ const BookList = () => {
       </ul>
     </div>
   ) : (
-    <div className="empty">No books to read. Hello free time 🙂</div>
+    <div className="empty">
+      No books to read. Hello free time{' '}
+      <span role="img" aria-label="smile">
+        🙂
+      </span>
+    </div>
   );
 };
 
