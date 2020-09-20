@@ -51,13 +51,11 @@ body {
 
 .book-list ul li .title {
   margin-bottom: 4px;
-  font-size: 1.2em;
   font-weight: bold;
   color: #fff;
 }
 
 .book-list ul li .author {
-  font-size: 0.9em;
   color: #ddd;
 }
 
@@ -72,6 +70,15 @@ form {
 
 input {
   font-family: 'Grandstander', cursive;
+}
+
+.book-list ul li .title,
+input:nth-child(1) {
+  font-size: 18px;
+}
+
+.book-list ul li .author,
+input:nth-child(2) {
   font-size: 14px;
 }
 
